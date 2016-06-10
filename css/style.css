@@ -19,7 +19,6 @@ html{
 body{
 	text-align: center;
   background-color: #7A1EA1;/*page background color */
-
 }
 
 a
@@ -93,12 +92,12 @@ p{
 	font-weight: semi-bold;
   margin: 0 auto 5% auto;
   padding: 2% 2% 0 2%;
-  line-height: 150%;
-  max-width: 450px;
+  line-height: 200%;
+  max-width: 500px;
 }
 
 .skills{
-  background-color: purple;
+  background-color: #318398;
   height: 100%;
   text-align: center;
 }
@@ -114,7 +113,7 @@ p{
 }
 
 .skills i{
-  color: #51A39D;
+  color: #7A1EA1;
   font-size: 3em;
   display: block;
   padding: 0 0 5px 0; /* should these be percentages? */
