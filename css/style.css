@@ -372,6 +372,11 @@ p{
  
  @media all and (min-width: 820px) 
 { 
+    .wrapper .block {
+    width: 23.5%;
+    position: relative;
+    margin: 2% 0 2% 0;
+  }
 
   .i295_520{
     width: 295px;
@@ -421,8 +426,14 @@ p{
     width: 100%;
     position: relative;
   }
+
   .projects {
-    height: 5000px;
+    height: 7000px;
+  }
+
+  #slogan {
+    font-size: 1.5em;
+    max-width: 50%;
   }
 
 } 
@@ -445,6 +456,26 @@ p{
 
   #menu{
     background: transparent;
+  }
+  
+}
+@media all and (max-width: 720px) 
+{ 
+  .projects {
+    height: 6500px;
+  }
+}
+@media all and (max-width: 620px) 
+{ 
+  .projects {
+    height: 5500px;
+  }
+}
+
+@media all and (max-width: 520px) 
+{ 
+  .projects {
+    height: 4500px;
   }
 }
  
